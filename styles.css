@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     /* Попереджує горизонтальне прокручування */
 }
-
+/* header nav menu */
 .navbar-brand {
     font-size: 45px !important;
     font-family: "Caveat", cursive;
@@ -52,6 +52,7 @@ body {
     margin-right: 25px;
     /* Відступи між пунктами меню */
 }
+/*  */
 h5 {
     font-family: "Caveat", cursive;
     font-size: 50px !important;
@@ -277,8 +278,35 @@ h4{
     color: #fff;
     font-size: 35px;
 }
+/* навігація меню */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+.navbar li {
 
+    font-size: 20px;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #d35400;
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+/*  */
 
 
 /* Загальні стилі для мобільних пристроїв */
