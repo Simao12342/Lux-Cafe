@@ -9,6 +9,7 @@ body {
 .navbar-brand {
     font-size: 45px !important;
     font-family: "Caveat", cursive;
+
 }
 .collapse1 {
     display: flex;
@@ -54,14 +55,23 @@ body {
 h5 {
     font-family: "Caveat", cursive;
     font-size: 50px !important;
+    color: #d35400 !important;
 }
 .carousel-caption p {
     font-family: "Caveat", cursive;
         font-size: 30px;
+        margin-bottom: 0 !important;
+        
+}
+.text-slider {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+
 }
 .carousel-caption a {
     font-family: "Pacifico", cursive;
     font-size: 20px;
+    color: #d35400 !important;
     text-decoration: none !important;
 
 }
@@ -114,7 +124,6 @@ h2 {
 }
 
 .carousel-item p {
-    margin: 25px;
     color: #fff;
     font-size: 25px;
     line-height: 1.4;
@@ -315,6 +324,130 @@ h4{
         border-radius: 10px;
     }
 }
+/* меню слайди */
+.container_list {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container_tovara {
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #333;
+}
+
+.product_foto_container {
+
+    width: 100%;
+    height: 70%;
+}
+
+.product_foto {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.product_foto:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.product_foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container_tovara:hover {
+    border: 1px solid #d35400;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 6px 1px #d35400;
+
+
+}
+
+.main_container {
+    width: 100%;
+    height: 30%;
+    background-color: #333;
+
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+.nazva {
+    width: 100%;
+    height: 60%;
+
+}
+
+.nazva a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.cina_vkorzinu {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 40%;
+}
+
+.cina {
+    width: 40%;
+
+}
+
+.cinatext {
+    font-family: "Caveat", cursive !important;
+    text-align: center;
+    font-size: 25px !important;
+    font-weight: bold;
+    color: #d35400 !important;
+}
+
+.nazva_tovaru {
+    color: #fff !important;
+    text-align: center;
+    font-family: "Caveat", cursive !important;
+    font-size: 20px !important;
+    line-height: 1;
+}
+
+.vkorzinu {}
+
+.btn {
+    color: rgb(15, 19, 241);
+    font-size: 25px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+}
+
+.btn:hover {
+
+    border-radius: 5px;
+    color: rgb(226, 240, 99);
+    background-color: rgb(8, 114, 184);
+    border-color: blue;
+}
+
+/* кінець слайдів меню */
+
 
 /* Додаткові стилі для дуже малих пристроїв */
 @media (max-width: 480px) {
