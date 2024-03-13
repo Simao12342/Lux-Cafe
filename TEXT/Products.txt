@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1, 
+    "category":"Pizza",
+    "title": "Піца Тоно", 
+    "description": "Тунець, чері, оливки, цибуля", 
+    "price": 210, "image": "IMG/Pizza/tono.png"
+  },
+  {"id": 2, 
+    "category":"Pizza", 
+    "title": "Піца Грибна", 
+    "description": "Соус бешамель, грибний соус, сир моцарелла, печериці, гриби мариновані.", 
+    "price":180,
+    "image":"IMG/Pizza/gribna.png"
+  },
+  {
+    "id": 3, 
+    "category":"Pizza", 
+    "title": "Піца Гавайська", 
+    "description": "Соус, куряче філе, ананаси, моцарела", 
+    "price": 165,
+    "image": "IMG/Pizza/gavaiska.png"
+  },
+  {
+    "id": 4, 
+    "category":"Pizza", 
+    "title": "Піца Прайд", 
+    "description": "Соус, моцарела, салямі, печериці, маслини, кукурудза, орегано", 
+    "price": 180,
+    "image": "IMG/Pizza/praid.png"
+  },
+  {
+    "id": 5, 
+    "category":"Pizza", 
+    "title": "Піца Чотири м'яса", 
+    "description": "Шинка,салямі,куряче філе,ковбаски мисливські,моцарела,соус неаполітанський.", 
+    "price": 240,
+    "image": "IMG/Pizza/4myasa.png"
+  },
+{
+    "id": 6, 
+    "category":"Pizza", 
+    "title": "Піца Гофредо", 
+    "description": "Шинка, курка, помідори, кукурудза, моцарела, соус неаполітанський", 
+    "price": 210,
+    "image": "IMG/Pizza/gofredo.png"
+  },
+{
+    "id": 7, 
+    "category":"Pizza", 
+    "title": "Піца Гуцульська", 
+    "description": "Шинка, цибуля, мисливська ковбаска, бринза, неаполітанський соус", 
+    "price": 185,
+    "image": "IMG/Pizza/guculska.png"
+  },
+{
+    "id": 8, 
+    "category":"Pizza", 
+    "title": "Піца з морепродуктами", 
+    "description": "Морський коктейль, креветки, томати чері, базилік, вершковий соус", 
+    "price": 250,
+    "image": "IMG/Pizza/z_moreproductami.png"
+  },
+{
+    "id": 9, 
+    "category":"Pizza", 
+    "title": "Піца Іспанська", 
+    "description": "Томати чері, моцарелла, пармезан, хамон, неаполітанський соус", 
+    "price": 190,
+    "image": "IMG/Pizza/ispanska.png"
+  },
+{
+    "id": 10, 
+    "category":"Pizza", 
+    "title": "Піца Капрічоза", 
+    "description": "Шинка, гриби, маслини, моцарела, соус неаполітанський", 
+    "price": 175,
+    "image": "IMG/Pizza/kaprichoza.png"
+  },
+{
+    "id": 11, 
+    "category":"Pizza", 
+    "title": "Піца Карбонара", 
+    "description": "Соус, моцарела, бекон, пармезан, орегано", 
+    "price": 185,
+    "image": "IMG/Pizza/karbonara.png"
+  },
+{
+    "id": 12, 
+    "category":"Pizza", 
+    "title": "Піца Квадро Стаджіоні", 
+    "description": "Соус, моцарела, шинка, салямі, помідор, печериці, орегано", 
+    "price": 220,
+    "image": "IMG/Pizza/pitsa-kvadro-stadzhioni.png"
+  },
+{
+    "id": 13, 
+    "category":"Pizza", 
+    "title": "Піца Крудо", 
+    "description": "Помідори, гриби, салямі, прошуто, соус неаполітанський.", 
+    "price": 220,
+    "image": "IMG/Pizza/krudo.png"
+  },
+{
+    "id": 14, 
+    "category":"Pizza", 
+    "title": "Люкс піца", 
+    "description": "Гриби, бекон, сулугуні, моцарела, помідор, соус неаполітанський", 
+    "price": 225,
+    "image": "IMG/Pizza/lux.png"
+  },
+{
+    "id": 15, 
+    "category":"Pizza", 
+    "title": "Піца Маргарита", 
+    "description": "Моцарелла, помідор, базилік, соус неаполітанський.", 
+    "price": 125,
+    "image": "IMG/Pizza/margarita.png"
+  },
+{
+    "id": 16, 
+    "category":"Pizza", 
+    "title": "Піца Мексикана", 
+    "description": "М’ясний фарш,перець чілі, халапеньо, соус табаско, моцарелла.", 
+    "price": 200,
+    "image": "IMG/Pizza/meksikana.png"
+  },
+{
+    "id": 17, 
+    "category":"Pizza", 
+    "title": "Піца Мисливська", 
+    "description": "Соус, моцарела, мисливські ковбаски, печериці, цибуля синя,соус барбекю, орегано", 
+    "price": 200,
+    "image": "IMG/Pizza/mislivska.png"
+  },
+{
+    "id": 18, 
+    "category":"Pizza", 
+    "title": "Піца Мілано", 
+    "description": "Соус, моцарела, дор-блю, салямі, пармезан, орегано", 
+    "price": 190,
+    "image": "IMG/Pizza/milano.png"
+  },
+{
+    "id": 19, 
+    "category":"Pizza", 
+    "title": "Піца Палермо", 
+    "description": "Соус, салямі, шинка, гриби, маслини, цибуля", 
+    "price": 190,
+    "image": "IMG/Pizza/palermo.png"
+  },
+{
+    "id": 20, 
+    "category":"Pizza", 
+    "title": "Піца Чотири сири", 
+    "description": "Чотири види сири", 
+    "price": 210,
+    "image": "IMG/Pizza/4sira.png"
+  },
+{
+    "id": 21, 
+    "category":"Pizza", 
+    "title": "Піца Пепероні", 
+    "description": "Салямі, рукула, томати чері, соус неаполітанський", 
+    "price": 180,
+    "image": "IMG/Pizza/peperoni.png"
+  },
+{
+    "id": 22, 
+    "category":"Pizza", 
+    "title": "Піца Цезаре", 
+    "description": "Курка, бекон, чері, соус бешамель, салат асберг, пармезан, соус цезар", 
+    "price": 210,
+    "image": "IMG/Pizza/cesare.png"
+  }
+
+]

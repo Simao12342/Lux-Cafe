@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кафе-Бар "LUX CAFE"</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
       rel="stylesheet"
@@ -15,58 +13,21 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      .navbar-brand,
-      .nav-link {
-        color: #fff !important;
-      }
-    </style>
   </head>
   <body>
     <header>
-      <!-- Навігаційна панель -->
-      <nav class="navbar1 navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-header">
-          <div class="">
-            <a class="navbar-brand" href="#"><img src="IMG/main-logo-removebd.png" alt=""></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="collapse1 navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Головна</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Меню</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Про нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav class="navbar">
+        <div class="logo"><img src="IMG/main-logo-removebd.png" alt="" /></div>
+        <!-- Місце для кнопки переключення меню буде тут -->
+        <ul class="nav-links">
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
       </nav>
     </header>
-    <!-- Карусель -->
     <div id="cafeCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -75,7 +36,7 @@
             class="d-block w-100"
             alt="Кафе-бар інтер'єр"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption h5-text d-none d-md-block">
             <h5>Cappuccino</h5>
             <p>
               напій італійського походження на основі еспресо з додаванням
@@ -120,222 +81,121 @@
         <span class="sr-only">Наступний</span>
       </a>
     </div>
-    <!--  -->
-    <!-- Продовження з попереднього коду -->
-    <main>
-      <ul class="navbar">
-        <li><a href="#pizza">Піца</a></li>
-        <li><a href="#sushi">Суші/WOK</a></li>
-        <li><a href="#fastfood">Фаст фуд</a></li>
-        <li><a href="#grill">Гриль меню</a></li>
-        <li><a href="#luxury">Люкс кухня</a></li>
-        <li><a href="#beer">До пива</a></li>
-        <li><a href="#sauces">Додатки та соуси</a></li>
-        <li><a href="#salads">Салати</a></li>
-        <li><a href="#dishes">Страви</a></li>
-        <li><a href="#plates">Тарілки</a></li>
-        <li><a href="#desserts">Десерти та Напої</a></li>
-    </ul>
-
-      <section class="our-menu" id="menu">
-        <div class="container1">
-          <h2>Наше меню</h2>
-          <p>
-            Ми пропонуємо широкий вибір страв і напоїв, серед яких кожен зможе
-            знайти щось на свій смак. Від класичних кавових напоїв до авторських
-            десертів - все приготовлено з любов'ю та майстерністю.
-          </p>
-          <div class="container_list">
-            <div class="container_tovara">
-              <div class="product_foto_container">
-                <div class="product_foto">
-                  <a href="#"><img src="IMG/img 2.jpeg" alt="" class="img_p" /></a>
-                </div>
-              </div>
-              <div class="main_container">
-                <div class="nazva">
-                  <a href="#"
-                    ><p class="nazva_tovaru">
-                      Еспресо
-                    </p></a
-                  >
-                </div>
-                <div class="cina_vkorzinu">
-                  <div class="cina">
-                    <p class="cinatext">30 <span>₴</span></p>
-                  </div>
-                  <!-- <div class="vkorzinu">
-                    <button class="btn" id="btn"><i class="fa fa-shopping-cart"></i></button>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="container_tovara">
-              <div class="product_foto_container">
-                <div class="product_foto">
-                  <a href="#"><img src="IMG/img 2.jpeg" alt="" class="img_p" /></a>
-                </div>
-              </div>
-              <div class="main_container">
-                <div class="nazva">
-                  <a href="#"><p class="nazva_tovaru">Американо</p></a>
-                </div>
-                <div class="cina_vkorzinu">
-                  <div class="cina">
-                    <p class="cinatext">35 <span>₴</span></p>
-                  </div>
-                  <!-- <div class="vkorzinu">
-                    <button class="btn" id="btn"><i class="fa fa-shopping-cart"></i></button>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="container_tovara">
-              <div class="product_foto_container">
-                <div class="product_foto">
-                  <a href="#"><img src="IMG/img 2.jpeg" alt="" class="img_p" /></a>
-                </div>
-              </div>
-              <div class="main_container">
-                <div class="nazva">
-                  <a href="#"><p class="nazva_tovaru">Капучіно</p></a>
-                </div>
-                <div class="cina_vkorzinu">
-                  <div class="cina">
-                    <p class="cinatext">40 <span>₴</span></p>
-                  </div>
-                  <!-- <div class="vkorzinu">
-                    <button class="btn" id="btn"><i class="fa fa-shopping-cart"></i></button>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="container_tovara">
-              <div class="product_foto_container">
-                <div class="product_foto">
-                  <a href="#"><img src="IMG/image (1).png" alt="" class="img_p" /></a>
-                </div>
-              </div>
-              <div class="main_container">
-                <div class="nazva">
-                  <a href="#"><p class="nazva_tovaru">Лате</p></a>
-                </div>
-                <div class="cina_vkorzinu">
-                  <div class="cina">
-                    <p class="cinatext">45 <span>₴</span></p>
-                  </div>
-                  <!-- <div class="vkorzinu">
-                    <button class="btn" id="btn"><i class="fa fa-shopping-cart"></i></button>
-                  </div> -->
-                </div>
-              </div>
-            </div>
+    <div class="container1">
+      <h2>Наше меню</h2>
+      <p>
+        Ми пропонуємо широкий вибір страв і напоїв, серед яких кожен зможе
+        знайти щось на свій смак. Від класичних кавових напоїв до авторських
+        десертів - все приготовлено з любов'ю та майстерністю.
+      </p>
+    </div>
+    <div class="filter-section">
+      <h2 class="filter-title">Категорії страв</h2>
+      <!-- Кнопки фільтрації тут  -->
+      <div class="filter-section-buttons">
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/всі страви.jpg" alt="filterAvtogroup"
+          /></a>
+          <a href="#" class="filter-button" id="filterAll">Всі страви</a>
         </div>
-    
-          <div class="menu-container">
-            <div class="menu-container">
-              <div class="menu-section">
-                <h4>Напої</h4>
-                <ul class="menu-list">
-                  <li><span>Еспресо</span><span>30 грн</span></li>
-                  <li><span>Американо</span><span>35 грн</span></li>
-                  <li><span>Капучіно</span><span>40 грн</span></li>
-                  <li><span>Лате</span><span>45 грн</span></li>
-                </ul>
-              </div>
-              <div class="menu-section">
-                <h4>Десерти</h4>
-                <ul class="menu-list">
-                  <li><span>Тірамісу</span><span>50 грн</span></li>
-                  <li><span>Чізкейк</span><span>55 грн</span></li>
-                  <li><span>Еклер</span><span>25 грн</span></li>
-                  <li><span>Круасан</span><span>30 грн</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="container-filter-button">
+          <a href="#"><img src="IMG/ICONS/пица.jpg" alt="filterAvtogroup" /></a>
+          <a class="filter-button" id="filterAvtogroup">Піца</a>
         </div>
-      </section>
-      
-      <section class="about-us1">
-        <div class="container1">
-          <h2>Про нас</h2>
-          <div class="about_us_container">
-            <p>
-              Кафе-бар "LUX CAFE" - це ідеальне місце для зустрічей з друзями,
-              сімейних обідів або просто, щоб насолодитися чашкою ароматної
-              кави. Наш затишний інтер'єр, дружня атмосфера та вишукане меню
-              зроблять ваш візит незабутнім.
-            </p>
-            <img
-              src="IMG/About_us1.avif"
-              alt="Інтер'єр кафе"
-              class="img-fluid"
-            />
-          </div>
-          <div class="about_us_container">
-            <img
-              src="IMG/photo_2024-03-10_11-04-47.jpg"
-              alt="Інтер'єр кафе"
-              class="img-fluid"
-            />
-
-            <p>
-              Кафе-бар "LUX CAFE" - це ідеальне місце для зустрічей з друзями,
-              сімейних обідів або просто, щоб насолодитися чашкою ароматної
-              кави. Наш затишний інтер'єр, дружня атмосфера та вишукане меню
-              зроблять ваш візит незабутнім.
-            </p>
-          </div>
+        <div class="container-filter-button">
+          <a href="#"><img src="IMG/ICONS/суші.jpg" alt="filterAvtogroup" /></a>
+          <a class="filter-button" id="filterClothes">Суші</a>
         </div>
-      </section>
-
-      <section class="gallery">
-        <div class="container1">
-          <h2>Галерея</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <img
-                src="IMG/карусель1.jpg"
-                alt="Фото інтер'єру"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-md-4">
-              <img
-                src="IMG/карусель2.jpg"
-                alt="Фото страви"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-md-4">
-              <img src="IMG/карусель3.jpg" alt="Фото напою" class="img-fluid" />
-            </div>
-            <!-- Додайте більше зображень за потребою -->
-          </div>
+        <div class="container-filter-button">
+          <a href="#"><img src="IMG/ICONS/wok.jpg" alt="filterAvtogroup" /></a>
+          <a class="filter-button" id="filterTools">WOK</a>
         </div>
-      </section>
-
-      <section class="video-section">
-        <div class="container1">
-          <h2>Дивіться нас в дії</h2>
-          <p>
-            Перегляньте наше відео, щоб дізнатись більше про наш кафе-бар і
-            атмосферу, яку ми створюємо.
-          </p>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              class="embed-responsive-item"
-              src="IMG/zzz.mp4"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/фастфуд.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterSafety">Фастфуд</a>
         </div>
-      </section>
-    </main>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/гриль.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Гриль меню </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/люкс страва.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Люкс меню </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/до пива.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> До пива </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/Додатки.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Додатки </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/соуси.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Соуси </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/салати.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Салати </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/десерти.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Десерти </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/алкоголь.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Алкоголь </a>
+        </div>
+        <div class="container-filter-button">
+          <a href="#"
+            ><img src="IMG/ICONS/напої.jpg" alt="filterAvtogroup"
+          /></a>
+          <a class="filter-button" id="filterMSO"> Напої </a>
+        </div>
+      </div>
 
+      <!-- Додаткові кнопки фільтрації можуть бути додані тут -->
+    </div>
+    <div class="products-all-filters">
+      <ul class="products-container"></ul>
+    </div>
+    <div class="cart">
+      <h2>Кошик</h2>
+      <p class="cart-empty-title">Ваш кошик порожній</p>
+      <div class="cart-list-wrapper">
+        <section class="cart-list-titles">
+          <h4 class="cart-list-item-title">Товар</h4>
+          <h4 class="cart-list-price-title">Ціна</h4>
+          <h4 class="cart-list-quantity-title">Кількість</h4>
+        </section>
+        <ul class="cart-list"></ul>
+        <h3 class="total-amount">Загальна сума <span>0</span></h3>
+      </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
